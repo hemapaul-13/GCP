@@ -182,3 +182,4 @@ resource "google_compute_subnetwork_iam_member" "binding" {
   role       = each.value.role
   member     = each.value.member
 }
+
